@@ -8,7 +8,7 @@
 package proxy.exercise2;
 
 public class Swede extends Scandinavian {
-    private final Lutefisk lutefisk = new VirtualLutefisk();
+    private final Lutefisk lutefisk = Proxies.virtual(Lutefisk.class, RealLutefisk::new);
 
     public void work() {
         System.out.println("Slaving away to pay my taxes (Jan-Nov)");
