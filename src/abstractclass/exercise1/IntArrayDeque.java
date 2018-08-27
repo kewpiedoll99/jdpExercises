@@ -9,12 +9,8 @@ package abstractclass.exercise1;
 
 import java.util.*;
 import java.util.function.*;
-import java.util.stream.*;
 
-public class IntArrayDeque implements Cloneable {
-    // TODO: extend AbstractIntCollection and change references to
-    // TODO: IntCollection instead of IntArrayDeque where you can.
-    // TODO: toString() is the same as in AbtractIntCollection - delete
+public class IntArrayDeque extends AbstractIntCollection implements Cloneable {
     transient Integer[] elements;
 
     transient int head;
@@ -70,7 +66,7 @@ public class IntArrayDeque implements Cloneable {
                     numElements + 1];
     }
 
-    public IntArrayDeque(IntArrayDeque c) {
+    public IntArrayDeque(IntCollection c) {
         this(c.size());
         addAll(c);
     }
@@ -121,7 +117,7 @@ public class IntArrayDeque implements Cloneable {
             grow(1);
     }
 
-    public boolean addAll(IntArrayDeque c) {
+    public boolean addAll(IntCollection c) {
         final int s, needed;
         if ((needed = (s = size()) + c.size() + 1 - elements.length) > 0)
             grow(needed);
@@ -508,12 +504,12 @@ public class IntArrayDeque implements Cloneable {
         return bulkRemove(filter);
     }
 
-    public boolean removeAll(IntArrayDeque c) {
+    public boolean removeAll(IntCollection c) {
         Objects.requireNonNull(c);
         return bulkRemove(c::contains);
     }
 
-    public boolean retainAll(IntArrayDeque c) {
+    public boolean retainAll(IntCollection c) {
         Objects.requireNonNull(c);
         return bulkRemove(e -> !c.contains(e));
     }
@@ -618,9 +614,6 @@ public class IntArrayDeque implements Cloneable {
         }
     }
 
-    public int[] toArray() {
-        return stream().toArray();
-    }
 
     // *** Object methods ***
 
@@ -654,29 +647,4 @@ public class IntArrayDeque implements Cloneable {
             throw t;
         }
     }
-
-    public String toString() {
-        return stream().mapToObj(Integer::toString)
-            .collect(Collectors.joining(", ", "[", "]"));
-    }
-
-    public IntStream stream() {
-        return StreamSupport.intStream(spliterator(), false);
-    }
-
-    public IntStream parallelStream() {
-        return StreamSupport.intStream(spliterator(), true);
-    }
-
-
-    // Bulk Operations
-
-    public boolean containsAll(IntArrayDeque c) {
-        for (IntIterator it = this.iterator(); it.hasNext(); ) {
-            if (!contains(it.next()))
-                return false;
-        }
-        return true;
-    }
-
 }

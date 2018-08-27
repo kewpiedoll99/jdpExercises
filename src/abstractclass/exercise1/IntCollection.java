@@ -7,33 +7,37 @@
  */
 package abstractclass.exercise1;
 
-import java.util.stream.*;
+import java.util.Collection;
+import java.util.Objects;
+import java.util.function.IntPredicate;
+import java.util.stream.IntStream;
+import java.util.stream.StreamSupport;
 
 public interface IntCollection extends IntIterable {
-    boolean contains(int i);
-
     int size();
 
-    default IntStream stream() {
-        return StreamSupport.intStream(spliterator(), false);
-    }
-
-    // TODO: Change the java.util.Collection methods below to
-    // TODO: work for IntCollection (some won't make sense)
-    /*
     boolean isEmpty();
-    Iterator<E> iterator();
-    Object[] toArray();
-    <T> T[] toArray(T[] a);
-    boolean add(E e);
-    boolean remove(Object o);
-    boolean containsAll(Collection<?> c);
-    boolean addAll(Collection<? extends E> c);
-    boolean removeAll(Collection<?> c);
-    default boolean removeIf(Predicate<? super E> filter) {
+
+    boolean contains(int o);
+
+    IntIterator iterator();
+
+    int[] toArray();
+
+    boolean add(int e);
+
+    boolean remove(int o);
+
+    boolean containsAll(IntCollection c);
+
+    boolean addAll(IntCollection c);
+
+    boolean removeAll(IntCollection c);
+
+    default boolean removeIf(IntPredicate filter) {
         Objects.requireNonNull(filter);
         boolean removed = false;
-        final Iterator<E> each = iterator();
+        final IntIterator each = iterator();
         while (each.hasNext()) {
             if (filter.test(each.next())) {
                 each.remove();
@@ -42,10 +46,16 @@ public interface IntCollection extends IntIterable {
         }
         return removed;
     }
-    boolean retainAll(Collection<?> c);
+
+    boolean retainAll(IntCollection c);
+
     void clear();
-    default Stream<E> parallelStream() {
-        return StreamSupport.stream(spliterator(), true);
+
+    default IntStream stream() {
+        return StreamSupport.intStream(spliterator(), false);
     }
-    */
+
+    default IntStream parallelStream() {
+        return StreamSupport.intStream(spliterator(), true);
+    }
 }

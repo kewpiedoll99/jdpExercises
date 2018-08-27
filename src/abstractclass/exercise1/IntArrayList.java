@@ -11,10 +11,7 @@ import java.util.*;
 import java.util.function.*;
 import java.util.stream.*;
 
-public class IntArrayList implements Cloneable {
-    // TODO: extend AbstractIntCollection and change references to
-    // TODO: IntCollection instead of IntArrayList where you can
-    // TODO: toString() is the same as in AbtractIntCollection - delete
+public class IntArrayList extends AbstractIntCollection implements Cloneable {
     private static final int DEFAULT_CAPACITY = 10;
 
     private static final int[] EMPTY_ELEMENTDATA = {};
@@ -40,7 +37,7 @@ public class IntArrayList implements Cloneable {
         this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
     }
 
-    public IntArrayList(IntArrayList c) {
+    public IntArrayList(IntCollection c) {
         elementData = c.toArray();
         if ((size = elementData.length) == 0) {
             // replace with empty array.
@@ -222,7 +219,7 @@ public class IntArrayList implements Cloneable {
             es[i] = 0;
     }
 
-    public boolean addAll(IntArrayList c) {
+    public boolean addAll(IntCollection c) {
         int[] a = c.toArray();
         modCount++;
         int numNew = a.length;
@@ -237,7 +234,7 @@ public class IntArrayList implements Cloneable {
         return true;
     }
 
-    public boolean addAll(int index, IntArrayList c) {
+    public boolean addAll(int index, IntCollection c) {
         rangeCheckForAdd(index);
 
         int[] a = c.toArray();
@@ -288,15 +285,15 @@ public class IntArrayList implements Cloneable {
         return "From Index: " + fromIndex + " > To Index: " + toIndex;
     }
 
-    public boolean removeAll(IntArrayList c) {
+    public boolean removeAll(IntCollection c) {
         return batchRemove(c, false, 0, size);
     }
 
-    public boolean retainAll(IntArrayList c) {
+    public boolean retainAll(IntCollection c) {
         return batchRemove(c, true, 0, size);
     }
 
-    boolean batchRemove(IntArrayList c, boolean complement,
+    boolean batchRemove(IntCollection c, boolean complement,
                         final int from, final int end) {
         Objects.requireNonNull(c);
         final int[] es = elementData;
@@ -645,25 +642,12 @@ public class IntArrayList implements Cloneable {
             MAX_ARRAY_SIZE;
     }
 
-    public boolean containsAll(IntArrayList c) {
+    public boolean containsAll(IntCollection c) {
         for (IntIterator it = c.iterator(); it.hasNext(); ) {
             int e = it.next();
             if (!contains(e))
                 return false;
         }
         return true;
-    }
-
-    public String toString() {
-        return stream().mapToObj(Integer::toString)
-            .collect(Collectors.joining(", ", "[", "]"));
-    }
-
-    public IntStream stream() {
-        return StreamSupport.intStream(spliterator(), false);
-    }
-
-    public IntStream parallelStream() {
-        return StreamSupport.intStream(spliterator(), true);
     }
 }
