@@ -8,35 +8,60 @@
 package builder.exercise1;
 
 public class ThreadBuilder {
+    private ThreadGroup threadGroup;
+    private long stackSize = 0;
+    private boolean inheritThreadLocals;
+    private boolean daemon = false;
+    private int priority = Thread.NORM_PRIORITY;
+    private Thread.UncaughtExceptionHandler uncaughtExceptionHandler;
+    private Runnable target;
+    private String name;
+
     public ThreadBuilder(Runnable target, String name) {
-        throw new UnsupportedOperationException("TODO");
+        this.target = target;
+        this.name = name;
     }
 
     public Thread build() {
-        throw new UnsupportedOperationException("TODO");
+        Thread thread = new Thread(
+            this.threadGroup,
+            this.target,
+            this.name,
+            this.stackSize,
+            this.inheritThreadLocals);
+        thread.setDaemon(this.daemon);
+        thread.setPriority(this.priority);
+        thread.setUncaughtExceptionHandler(this.uncaughtExceptionHandler);
+        return thread;
     }
 
     public ThreadBuilder threadGroup(ThreadGroup threadGroup) {
-        throw new UnsupportedOperationException("TODO");
+        this.threadGroup = threadGroup;
+        return this;
     }
 
     public ThreadBuilder stackSize(long stackSize) {
-        throw new UnsupportedOperationException("TODO");
+        this.stackSize = stackSize;
+        return this;
     }
 
     public ThreadBuilder inheritThreadLocals(boolean inheritThreadLocals) {
-        throw new UnsupportedOperationException("TODO");
+        this.inheritThreadLocals = inheritThreadLocals;
+        return this;
     }
 
     public ThreadBuilder daemon(boolean daemon) {
-        throw new UnsupportedOperationException("TODO");
+        this.daemon = daemon;
+        return this;
     }
 
     public ThreadBuilder priority(int priority) {
-        throw new UnsupportedOperationException("TODO");
+        this.priority = priority;
+        return this;
     }
 
     public ThreadBuilder uncaughtExceptionHandler(Thread.UncaughtExceptionHandler uncaughtExceptionHandler) {
-        throw new UnsupportedOperationException("TODO");
+        this.uncaughtExceptionHandler = uncaughtExceptionHandler;
+        return this;
     }
 }

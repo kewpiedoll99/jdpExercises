@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47868903-9011-487d-bd86-3633e3dc2cce" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/abstractclass/exercise1/IntArrayDeque.java" afterPath="$PROJECT_DIR$/src/abstractclass/exercise1/IntArrayDeque.java" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclass/exercise1/IntArrayList.java" afterPath="$PROJECT_DIR$/src/abstractclass/exercise1/IntArrayList.java" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclass/exercise1/IntCollection.java" afterPath="$PROJECT_DIR$/src/abstractclass/exercise1/IntCollection.java" />
+      <change beforePath="$PROJECT_DIR$/dpc5.iws" afterPath="$PROJECT_DIR$/dpc5.iws" />
       <change beforePath="$PROJECT_DIR$/src/builder/exercise1/ThreadBuilder.java" afterPath="$PROJECT_DIR$/src/builder/exercise1/ThreadBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/src/builder/exercise2/CalendarGenerator.java" afterPath="$PROJECT_DIR$/src/builder/exercise2/CalendarGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/exercise1/VirtualLutefisk.java" afterPath="$PROJECT_DIR$/src/proxy/exercise1/VirtualLutefisk.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,31 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractClassTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/abstractclass/exercise1/AbstractClassTest.java">
+      <file leaf-file-name="Calendar.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Calendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractIntCollection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/abstractclass/exercise1/AbstractIntCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalendarGenerator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/builder/exercise2/CalendarGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="1081">
+              <caret line="1348" column="18" lean-forward="false" selection-start-line="1348" selection-start-column="18" selection-end-line="1348" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -52,6 +32,89 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/exercise2/CalendarGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GregorianCalendar.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/GregorianCalendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="850" column="24" lean-forward="false" selection-start-line="850" selection-start-column="15" selection-end-line="850" selection-end-column="24" />
+              <folding>
+                <element signature="e#33711#33712#0" expanded="true" />
+                <element signature="e#33743#33744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Proxies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/Proxies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="41" column="91" lean-forward="false" selection-start-line="41" selection-start-column="91" selection-end-line="41" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/solution2/CalendarGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/exercise1/ThreadBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VirtualLutefisk.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/VirtualLutefisk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VirtualProxyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/VirtualProxyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VirtualProxyTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/VirtualProxyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -69,12 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Class.for</find>
-      <find>proxy.</find>
-      <find>Class.fo</find>
-      <find>Illegal</find>
-      <find>IllegalS</find>
-      <find>IllegalState</find>
       <find>LinkedList</find>
       <find>forName</find>
       <find>accept</find>
@@ -99,6 +156,12 @@
       <find>stack</find>
       <find>uncaughtExceptionHandler</find>
       <find>throw new UnsupportedOperationException(&quot;TODO&quot;);</find>
+      <find>set</find>
+      <find>gre</find>
+      <find>,</find>
+      <find>gregor</find>
+      <find>&quot;gregory&quot;</find>
+      <find>gregory</find>
     </findStrings>
     <replaceStrings>
       <replace>IntArrayDeque</replace>
@@ -107,6 +170,7 @@
       <replace>this.getClass().getPackage() + &quot;.</replace>
       <replace>ArrayList</replace>
       <replace>IntCollection</replace>
+      <replace>, this.</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/exercises/src/abstractclass/exercise1</dir>
@@ -126,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/observer/test/StockTicker.java" />
-        <option value="$PROJECT_DIR$/src/observer/test/Trader.java" />
         <option value="$PROJECT_DIR$/src/abstractfactory/solution1/AbstractFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/abstractfactory/solution1/Earth.java" />
         <option value="$PROJECT_DIR$/src/abstractfactory/exercise1/Earth.java" />
@@ -167,7 +229,6 @@
         <option value="$PROJECT_DIR$/src/strategy/solution1/StrategyTest.java" />
         <option value="$PROJECT_DIR$/src/proxy/exercise1/Lutefisk.java" />
         <option value="$PROJECT_DIR$/src/proxy/exercise1/RealLutefisk.java" />
-        <option value="$PROJECT_DIR$/src/proxy/exercise1/VirtualLutefisk.java" />
         <option value="$PROJECT_DIR$/src/proxy/exercise1/Norwegian.java" />
         <option value="$PROJECT_DIR$/src/proxy/exercise1/Swede.java" />
         <option value="$PROJECT_DIR$/src/proxy/exercise2/Norwegian.java" />
@@ -177,6 +238,9 @@
         <option value="$PROJECT_DIR$/src/abstractclass/exercise1/IntArrayDeque.java" />
         <option value="$PROJECT_DIR$/src/abstractclass/exercise1/AbstractIntCollection.java" />
         <option value="$PROJECT_DIR$/src/builder/exercise1/ThreadBuilder.java" />
+        <option value="$PROJECT_DIR$/src/proxy/exercise1/VirtualLutefisk.java" />
+        <option value="$PROJECT_DIR$/src/proxy/exercise2/Proxies.java" />
+        <option value="$PROJECT_DIR$/src/builder/exercise2/CalendarGenerator.java" />
       </list>
     </option>
   </component>
@@ -189,9 +253,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="117" />
-    <option name="y" value="112" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="169" />
+    <option name="y" value="71" />
     <option name="width" value="1792" />
     <option name="height" value="1090" />
   </component>
@@ -244,6 +308,33 @@
               <item name="dpc5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpc5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpc5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="solution2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpc5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpc5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpc5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpc5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpc5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpc5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
               <item name="exercise2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -651,47 +742,48 @@
       <workItem from="1528461648883" duration="3198000" />
       <workItem from="1528479067111" duration="266000" />
       <workItem from="1529222761073" duration="3629000" />
-      <workItem from="1535293807073" duration="10175000" />
+      <workItem from="1535293807073" duration="16269000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AbstractClassTest - 2018.08.26 at 12h 22m 18s.xml">
-      <configuration name="AbstractClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AbstractClassTest - 2018.08.26 at 13h 59m 51s.xml">
-      <configuration name="AbstractClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalendarTest - 2018.08.27 at 08h 57m 31s.xml">
       <configuration name="CalendarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadBuilderTest - 2018.08.27 at 08h 51m 39s.xml">
-      <configuration name="ThreadBuilderTest" configurationId="JUnit" />
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 34m 31s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadBuilderTest - 2018.08.27 at 08h 52m 16s.xml">
-      <configuration name="ThreadBuilderTest" configurationId="JUnit" />
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 41m 26s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadBuilderTest - 2018.08.27 at 08h 55m 46s.xml">
-      <configuration name="ThreadBuilderTest" configurationId="JUnit" />
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 49m 58s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 51m 00s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 52m 52s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 54m 28s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 56m 43s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalendarTest - 2018.09.03 at 17h 56m 50s.xml">
+      <configuration name="CalendarTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ThreadBuilderTest - 2018.08.27 at 08h 57m 08s.xml">
       <configuration name="ThreadBuilderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VirtualProxyTest - 2018.08.26 at 11h 28m 38s.xml">
-      <configuration name="VirtualProxyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VirtualProxyTest_(1) - 2018.08.26 at 11h 28m 21s.xml">
-      <configuration name="VirtualProxyTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VirtualProxyTest_(1) - 2018.08.26 at 11h 28m 59s.xml">
-      <configuration name="VirtualProxyTest (1)" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111710000" />
+    <option name="totallyTimeSpent" value="117804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="112" width="1792" height="1090" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -702,11 +794,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46113306" sideWeight="0.5028694" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5019815" sideWeight="0.49713057" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45248228" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.87978864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18457143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4212766" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -714,7 +806,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29320988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3432624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -765,6 +857,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -802,27 +920,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/strategy/solution1/CompanyTaxStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/solution1/EmployeeTaxStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/solution1/ReceiverOfRevenue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/solution1/TaxPayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -886,17 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/RealLutefisk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/proxy/solution2/Proxies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-112">
@@ -942,17 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/VirtualLutefisk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#598#599#0" expanded="false" />
-            <element signature="e#630#631#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/Norwegian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -968,14 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/VirtualProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1016,30 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/VirtualProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/Proxies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/Norwegian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1213,9 +1256,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/RealLutefisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/Norwegian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/Proxies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="41" column="91" lean-forward="false" selection-start-line="41" selection-start-column="91" selection-end-line="41" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/builder/exercise1/ThreadBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="90">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
@@ -1229,10 +1296,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/solution2/CalendarGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/GregorianCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="850" column="24" lean-forward="false" selection-start-line="850" selection-start-column="15" selection-end-line="850" selection-end-column="24" />
+          <folding>
+            <element signature="e#33711#33712#0" expanded="true" />
+            <element signature="e#33743#33744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="1348" column="18" lean-forward="false" selection-start-line="1348" selection-start-column="18" selection-end-line="1348" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/builder/exercise2/CalendarGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/VirtualLutefisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/exercise1/VirtualProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/exercise2/VirtualProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
