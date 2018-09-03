@@ -19,9 +19,6 @@ public class VirtualLutefisk implements Lutefisk {
         return lutefisk;
     };
 
-    public VirtualLutefisk() {
-    }
-
     public void eat() {
         lutefisk().eat();
     }
