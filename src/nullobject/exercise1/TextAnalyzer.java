@@ -11,10 +11,11 @@ import java.io.*;
 import java.nio.charset.*;
 import java.nio.file.*;
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.*;
 
 public class TextAnalyzer {
-    private final HashMap<Character, Long> map = new HashMap<>();
+    private final Map<Character, Long> map;
     private static final char[] characterArray =
         "aeiouAEIOUbcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ".toCharArray();
 
@@ -22,23 +23,14 @@ public class TextAnalyzer {
         Path path = Paths.get(filename);
         String contents = new String(Files.readAllBytes(path),
             StandardCharsets.UTF_8);
-        for (String word : contents.split("\\PL+")) {
-            char[] charArray = word.toCharArray();
-            IntStream.rangeClosed(0, charArray.length - 1)
-                .forEach(n ->
-                    map.compute(charArray[n],
-                        (k, v) -> v == null ? 1 : v + 1)
-                );
-        }
+        map = contents.chars().filter(Character::isLetter)
+            .mapToObj(i -> (char) i)
+            .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
     }
 
     public Map.Entry<Character, Long> getEntry(int n) {
         if (n < 0 || n > 51)
             throw new IllegalArgumentException();
-        if (map.containsKey(characterArray[n])) {
-            return Map.entry(characterArray[n],
-                map.get(characterArray[n]));
-        }
-        return null;
+        return Map.entry(characterArray[n], map.getOrDefault(characterArray[n], 0L));
     }
 }
